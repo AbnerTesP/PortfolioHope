@@ -7,10 +7,10 @@ export const Contact = () => {
     <footer id='contact' className={styles.container}>
         <div className={styles.text}>
             <h2>
-                Contact
+                Contactos
             </h2>
             <p>
-                Feel free to reach out!
+                Sinta-se à vontade para entrar em contato!
             </p>
         </div>
         <ul className={styles.links}>
@@ -23,7 +23,7 @@ export const Contact = () => {
                 <a href="https://www.instagram.com/myname">instagram.com/myname</a>
             </li>
             <li className={styles.link}> 
-            <img src={getImageUrl("contact/instaIcon.png")} alt="Facebook Icon" />
+            <img src={getImageUrl("contact/faceIcon.png")} alt="Facebook Icon" />
                 <a href="https://www.facebook.com/myname">facebook.com/myname</a>
             </li>
         </ul>

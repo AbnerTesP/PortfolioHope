@@ -20,7 +20,7 @@ const Navbar = () => {
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#experience">Experiência</a></li>
-                <li><a href="#about">Contacte-nos</a></li>
+                <li><a href="#contact">Contacte-nos</a></li>
             </ul>
         </div>
     </nav>
