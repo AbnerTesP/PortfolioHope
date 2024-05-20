@@ -17,6 +17,7 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 .content{
@@ -26,7 +27,10 @@
 }
 
 .aboutImg{
-    width: 35%;
+    width: 30%;
+    margin-right: 25px;
+    opacity: 0.85;
+    border-radius: 15px;
 }
 
 .aboutItems{
@@ -43,7 +47,7 @@
     border-radius: 20px;
     list-style: none;
     padding: 25px;
-    background-image: linear-gradient(90deg, rgba(50,205,50,0.42 ) 0%, 
+    background-image: linear-gradient(90deg, rgba(48, 224, 48, 0.521) 0%, 
     rgba( 255, 255, 255, 0) 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
@@ -54,9 +58,10 @@
     background-size: 100% 100%;;
 }
 
-.aboutItem h3{
+.aboutItem h4{
     font-size: 25px;
     font-weight: 600;
+    letter-spacing: 1.75px;
 }
 
 .aboutItem p{
@@ -66,6 +71,8 @@
 .aboutItemtext{
     margin-left: 20px;
 }
+
+
 
 @media screen and (max-width: 830px){
     .container{

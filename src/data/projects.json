@@ -1,25 +1,25 @@
 [
     {
-        "title": "Project A",
-        "imageSrc": "projects/projects.png",
-        "description": "This is a project description",
-        "skills": ["React", "Node", "Express"],
+        "title": "Resina",
+        "videoSrc": "projects/Videoresina.mp4",
+        "description": "Trabalhos Em Resina",
+        "skills": ["Epox", "pigmentação", "modelagem"],
         "demo": "https://www.example.com",
         "source": "https://www.github.com"
     },    
     {
-        "title": "Project B",
-        "imageSrc": "projects/projects.png",
-        "description": "This is a project description",
-        "skills": ["React", "Node", "Express", "Sass"],
+        "title": "Madeira",
+        "videoSrc": "projects/Videomadeira.mp4",
+        "description": "Trabalhos Em Madeira",
+        "skills": ["Queima", "arte"],
         "demo": "https://www.example.com",
         "source": "https://www.github.com"
     },    
     {
-        "title": "Project C",
-        "imageSrc": "projects/projects.png",
-        "description": "This is a project description",
-        "skills": ["React", "Node", "Express", "MySQL"],
+        "title": "Sapatos",
+        "videoSrc": "projects/Videosapato.mp4",
+        "description": "Reparação De Calçado",
+        "skills": ["Solas", "Proteções", "Restauração"],
         "demo": "https://www.example.com",
         "source": "https://www.github.com"
     }

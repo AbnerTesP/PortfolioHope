@@ -7,7 +7,7 @@ import { ProjectCard } from './ProjectCard'
 export const Projects = () => {
   return (
     <section className={styles.container} id='projects'>
-        <h2 className={styles.tilte}>Projects</h2>
+        <h2 className={styles.tilte}>Trabalhos</h2>
         <div className={styles.projects}>
             {projects.map((projects, id)=>{
                 return (

@@ -13,6 +13,7 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .content{
@@ -27,6 +28,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 11px;
+    justify-content: center;
 }
 
 .skill{

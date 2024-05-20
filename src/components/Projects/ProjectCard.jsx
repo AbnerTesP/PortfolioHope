@@ -2,10 +2,13 @@ import React from 'react'
 import {getImageUrl} from '../../utils'
 import styles from './ProjectCard.module.css'
 
-export const ProjectCard = ({projects :{title, imageSrc, description, skills, demo, source}, }) => {
+export const ProjectCard = ({projects :{title, imageSrc, videoSrc, description, skills, demo, source}, }) => {
+    const videoUrl = getImageUrl(videoSrc)
   return (
     <div className={styles.container}>
-        <img src= {getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.image}/>
+        <video className={styles.video} autoPlay muted loop >
+            <source src={videoUrl} type='video/mp4'/>
+        </video>
         <h3 className={styles.title}>
             {title}
         </h3>
@@ -19,8 +22,8 @@ export const ProjectCard = ({projects :{title, imageSrc, description, skills, de
             </li>
         })}</ul>
         <div className={styles.links}>
-        <a href={demo} className={styles.link}>Demo</a>
-        <a href={source} className={styles.link}>Source</a>
+        <a href={demo} className={styles.link}></a>
+        <a href={source} className={styles.link}></a>
         </div>
     </div>
   )
