@@ -58,6 +58,8 @@
     .menuBtn{
         display:block;
         cursor: pointer;
+        margin-top: -40px;
+        margin-right: -30px;
     }
 
     .menuItems{

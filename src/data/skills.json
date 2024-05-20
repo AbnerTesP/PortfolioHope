@@ -7,15 +7,6 @@
     {
         "title": "Chaves Silca",
         "imageSrc":"skills/silca.png"
-    },
-
-    {
-        "title": "React",
-        "imageSrc":"skills/react.png"
-    },
-
-    {
-        "title": "MongoDB",
-        "imageSrc":"skills/mongo.png"
     }
+
 ]
