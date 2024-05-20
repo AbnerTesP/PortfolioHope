@@ -20,11 +20,19 @@ export const Contact = () => {
             </li>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/instaIcon.png")} alt="Instagram Icon" />
-                <a href="https://www.instagram.com/myname">instagram.com/HopeChaves&Arte</a>
+                <a href="https://www.instagram.com/hopechavesearte/">instagram.com/HopeChaves&Arte</a>
             </li>
             <li className={styles.link}> 
             <img src={getImageUrl("contact/faceIcon.png")} alt="Facebook Icon" />
-                <a href="https://www.facebook.com/myname">facebook.com/HopeChaves&Arte</a>
+                <a href="https://www.facebook.com/Hope.chaves.arte">facebook.com/HopeChaves&Arte</a>
+            </li>
+            <li className={styles.link}>
+                <img src={getImageUrl("contact/whatsappIcon.png")} alt="WhatsApp Icon" />
+                <a href="https://wa.me/351933330709">+351 933330709</a>
+            </li>
+            <li className={styles.link}>
+                <img src={getImageUrl("contact/localIcon.png")} alt="Localization Icon" />
+                <a href="https://maps.app.goo.gl/9eobNEUmuguJmSAc7"> R. Dr. Joaquim Francisco Alves 2490, 2490-573 Ourém</a>
             </li>
         </ul>
     </footer>
