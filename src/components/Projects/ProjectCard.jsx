@@ -6,7 +6,7 @@ export const ProjectCard = ({projects :{title, imageSrc, videoSrc, description, 
     const videoUrl = getImageUrl(videoSrc)
   return (
     <div className={styles.container}>
-        <video className={styles.video} autoPlay muted loop >
+        <video className={styles.video} autoPlay muted loopb playsInline>
             <source src={videoUrl} type='video/mp4'/>
         </video>
         <h3 className={styles.title}>
