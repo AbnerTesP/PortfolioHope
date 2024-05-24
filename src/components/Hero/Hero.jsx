@@ -7,7 +7,7 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Olá, eu sou a Keila</h1>
-        <p className={styles.description}>Conheça a chaveira habilidosa, especialista em calçados, mestre da resina e madeira. 
+        <p className={styles.description}> Chaveira habilidosa, especialista em calçados, mestre da resina e madeira. 
         Descubra como ela transforma materiais comuns em peças únicas e cheias de estilo.</p>
         <a href="https://wa.me/+3519333307097" className={styles.contactBtn} target='_blank' rel='noopener noreferrer'>Contacte-me</a>
       </div>

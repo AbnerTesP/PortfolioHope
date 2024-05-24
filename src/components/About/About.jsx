@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, {Component} from 'react';
 import { getImageUrl } from '../../utils';
 import styles from './About.module.css';
 

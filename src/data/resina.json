@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Letra + Brincos",
+        "imageSrc": "resina/Resina1.png",
+        "description": "Letra + brincos em resina",
+        "skills": ["5 €"]
+        
+    },    
+    {
+        "title": "Letra + Brincos ",
+        "imageSrc": "resina/Resina2.png",
+        "description": "Letra + brincos em resina",
+        "skills": ["5 €"]
+    
+    },    
+    {
+        "title": "Letra F",
+        "imageSrc": "resina/Resina3.png",
+        "description": "Letra em resina",
+        "skills": ["5 €"]
+    },
+    
+    {
+        "title": "Letra + Brincos",
+        "imageSrc": "resina/Resina4.jpg",
+        "description": "Letra + brincos em resina",
+        "skills": ["5 €"]
+    },
+
+    {
+        "title": "Letra + Brincos",
+        "imageSrc": "resina/Resina5.png",
+        "description": "Letra + brincos em resina",
+        "skills": ["5 €"]
+        
+    },   
+
+    {
+        "title": "Letra",
+        "imageSrc": "resina/Resina6.png",
+        "description": "Letra + brincos em resina",
+        "skills": ["5 €"]
+    
+    },   
+
+    {
+        "title": "Letra + Brincos",
+        "imageSrc": "resina/Resina7.png",
+        "description": "Letra + brincos em resina",
+        "skills": ["5 €"]
+    },
+    
+    {
+        "title": "Letra + Brincos",
+        "imageSrc": "resina/Resina8.png",
+        "description": "Letra + brincos em resina",
+        "skills": ["5 €"]
+    }
+]

@@ -1,22 +1,18 @@
-import Style from './App.module.css'
-import { About } from './components/About/About'
-import { Contact } from './components/Contact/Contact'
-import { Experience } from './components/Experience/Experience'
-import { Hero } from './components/Hero/Hero'
-import Navbar from './components/Navbar/Navbar'
-import { Projects } from './components/Projects/Projects'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Resina from './Views/Resina/Resina'
+import Home from './Views/Home/Home'
+import Madeira from './Views/Madeira/Madeira'
+
 
 function App() {
-
   return (
-    <div className={Style.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={ <Home /> } />
+        <Route path="/resina" element={ <Resina /> } />
+        <Route path="/madeira" element={<Madeira />}/>
+      </Routes>
+    </Router>
   )
 }
 

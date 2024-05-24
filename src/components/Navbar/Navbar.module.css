@@ -39,6 +39,11 @@
 
 }
 
+.disabled {
+    pointer-events: none;
+    opacity: 0;
+}
+
 @media screen and (max-width: 830px){
     .navbar{
         flex-direction: column;

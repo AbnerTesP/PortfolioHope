@@ -1,10 +1,10 @@
 import React from 'react'
+import styles from './MadeiraCard.module.css'
 import {getImageUrl} from '../../utils'
-import styles from './ProjectCard.module.css'
-import {Link} from 'react-router-dom'
 
 
-export const ProjectCard = ({projects :{title, imageSrc, videoSrc, description, skills, link}, }) => {
+
+export const MadeiraCard = ({madeira :{title, imageSrc, videoSrc, description, skills, link}, }) => {
     const videoUrl = getImageUrl(videoSrc)
   return (
     <div className={styles.container}>
@@ -23,9 +23,6 @@ export const ProjectCard = ({projects :{title, imageSrc, videoSrc, description, 
                 {skills}
             </li>
         })}</ul>
-        <div className={styles.links}>
-            <Link to={link} className={styles.link}>+</Link>
-        </div>
     </div>
   )
 }
