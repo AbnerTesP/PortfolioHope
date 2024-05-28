@@ -1,29 +1,27 @@
 [
     {
-        "title": "Resina",
-        "videoSrc": "projects/Videoresina.mp4",
-        "description": "Trabalhos Em Resina",
-        "skills": ["Epox", "pigmentação", "modelagem"],
-        "link": "/resina"
+        "title": "Caneta",
+        "imageSrc": ["madeira/caneta.png"],
+        "description": "Gravação de Canetas",
+        "skills": ["• 8€ conjunto"]
+    },   
+    {
+        "title": "Placas de Madeira",
+        "imageSrc": ["madeira/silence.png"],
+        "description": "Gravação de Placas",
+        "skills": ["• 4€ un"]
     },    
     {
-        "title": "Madeira",
-        "videoSrc": "projects/Videomadeira.mp4",
-        "description": "Trabalhos Em Madeira",
-        "skills": ["Queima", "arte"],
-        "link": "/madeira"
-    },    
-    {
-        "title": "Sapatos",
-        "videoSrc": "projects/Videosapato.mp4",
-        "description": "Reparação De Calçado",
-        "skills": ["Solas", "Proteções", "Restauração"]
+        "title": "Acessórios de Madeira",
+        "imageSrc": ["madeira/coracao.png","madeira/placa.png"],
+        "description": "Gravação de Placas",
+        "skills": ["• desde 2€"]
     },
     
     {
-        "title": "Chaves e comandos",
-        "videoSrc": "projects/Videochave.mp4",
-        "description": "Copia de Chaves e Comandos",
-        "skills": ["Programação", "Copia", "Chaves", "Comandos"]
+        "title": "Chaveiro de Madeira",
+        "imageSrc": ["madeira/chaveiro1.png","madeira/chaveiro2.png","madeira/chaveiro3.png","madeira/chaveiro4.png"],
+        "description": "Gravação de chaveiros",
+        "skills": ["• Expessura fina - 2€", "• Expessura grossa - 3€"]
     }
 ]

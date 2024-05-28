@@ -20,8 +20,8 @@
 }
 
 .title{
-    font-size: 72px;
-    font-weight: 900;
+    font-size: 60px;
+    font-weight: 790;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
     background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0),120%);
@@ -33,15 +33,60 @@
     margin-bottom: 52px;
 }
 
-.contactBtn{
+.contactBtn {
+    position: relative;
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
+    border: none;
     border-radius: 100px;
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.contactBtn:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 100px;
+    background-color: #a0f11e;
+    background-image: linear-gradient(315deg, #a0f11e 0%, #d9f794 74%);
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+                7px 7px 20px 0px rgba(0,0,0,.1),
+                4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+
+.contactBtn:hover {
+    color: #000;
+}
+
+.contactBtn:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.contactBtn:active {
+    top: 2px;
+}
+
+
+.function{
+    color: var(--color-text);
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    margin-top: 530px;
+    margin-left: 200px;
+    margin-right: -310px;
+    z-index: 1;
 }
 
 .heroImg{
@@ -103,5 +148,12 @@
 
     .content{
         align-items: center;
+    }
+
+    .function{
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0px 60px;
     }
 }

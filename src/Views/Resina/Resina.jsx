@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import resina from '../../data/resina.json'
 import { ResinaCard} from './ResinaCard'
 import styles from './Resina.module.css'
+import Contact from '../../components/Contact/Contact'
 
 export const Resina = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ export const Resina = () => {
               );
           })}
     </section>
+    <Contact />
   </section>
   )
 }

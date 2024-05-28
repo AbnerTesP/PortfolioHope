@@ -1,16 +1,36 @@
 
-import React, {Component} from 'react';
+import React, {useState, useEffect} from 'react';
 import { getImageUrl } from '../../utils';
 import styles from './About.module.css';
 
 export const About = () => {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const images = ["about/FotoLogo.png", "about/FotoFrente.png", "about/FotoCompleta.png"];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+          setCurrentImageIndex((currentImageIndex + 1) % images.length);
+        }, 10000); 
+        return () => clearInterval(interval);
+      }, [currentImageIndex, images.length]);
+
+
   return (
     <section className={styles.container} id="about">
         <h2 className={styles.title}>
             Sobre
         </h2>
         <div className={styles.content}>
-            <img src={getImageUrl("about/FotoCompleta.png")} alt="Eu no trabalho" className={styles.aboutImg}/>
+            <div className={styles.imageSlider}>
+                {images.map((image, index) => (
+                    <img
+                        key={image}
+                        src={getImageUrl(image)}
+                        alt="Eu no trabalho"
+                        className={`${styles.aboutImg} ${index === currentImageIndex ? styles.visible : ''}`}
+                    />
+                ))}
+            </div>
         <ul className={styles.aboutItems}>
             <li className={styles.aboutItem}>
                 <img src={getImageUrl("about/calcadoImg.png")} alt="calcado-icon" />

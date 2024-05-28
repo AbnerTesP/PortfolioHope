@@ -1,12 +1,34 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { Carousel} from 'react-responsive-carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
 import styles from './ResinaCard.module.css'
 import {getImageUrl} from '../../utils'
 
-export const ResinaCard = ({resina :{title, imageSrc, videoSrc, description, skills}, }) => {
+export const ResinaCard = ({resina :{title, imageSrc, description, skills}, }) => {
+    const [fullSizeImageIndex, setImageFullSizeIndex] = useState(-1);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleImageClick = (index) => {
+        setImageFullSizeIndex(index);
+        setIsModalOpen(true);
+    }
 
   return (
     <div className={styles.container}>
-        <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.img} />
+        <Carousel showThumbs={false}>
+            {imageSrc.map((imageSrc, index) => (
+                <div key={index} onClick={() => handleImageClick(index)}>
+                    <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`}
+                    className={styles.img}/>
+                </div>
+            ))}
+        </Carousel>
+        {isModalOpen && (
+            <div className={styles.modal} onClick={() => setIsModalOpen(false)}>
+                <img src={getImageUrl(imageSrc[fullSizeImageIndex])} alt={`Image of ${title}`} 
+                className={styles.imgFullSize}/>
+            </div>
+        )}
         <h3 className={styles.title}>
             {title}
         </h3>

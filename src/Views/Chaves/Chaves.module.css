@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+.App{
+    background-color: var(--color-bg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin-top: 76px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color:#f5f5dc; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    line-height: 1.5; 
+}
+
+.pecas{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}

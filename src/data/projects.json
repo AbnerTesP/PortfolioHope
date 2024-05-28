@@ -17,13 +17,15 @@
         "title": "Sapatos",
         "videoSrc": "projects/Videosapato.mp4",
         "description": "Reparação De Calçado",
-        "skills": ["Solas", "Proteções", "Restauração"]
+        "skills": ["Solas", "Proteções", "Restauração"],
+        "link": "/sapatos"
     },
     
     {
-        "title": "Chaves e comandos",
-        "videoSrc": "projects/Videochave.mp4",
-        "description": "Copia de Chaves e Comandos",
-        "skills": ["Programação", "Copia", "Chaves", "Comandos"]
-    }
+         "title": "Chaves e comandos",
+         "videoSrc": "projects/Videochave.mp4",
+         "description": "Copia de Chaves e Comandos",
+         "skills": ["Programação", "Copia", "Chaves", "Comandos"],
+         "link": "/chaves"
+     }
 ]

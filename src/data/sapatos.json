@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Palmilhas",
+        "imageSrc": ["sapatos/Palmilhas.png","sapatos/Palmilhas1.png","sapatos/Palmilhas2.png","sapatos/Palmilhas3.png"],
+        "description": "Letra + brincos em resina",
+        "skills": ["• desde 1,95€ até 15,70€"]
+        
+    },      
+    {
+        "title": "Cadarço de Sapato",
+        "imageSrc": ["sapatos/Cadarco.png","sapatos/Cadarco2.png","sapatos/Cadarco3.png", "sapatos/Cadarco4.png"],
+        "description": "Letra em resina",
+        "skills": ["4€ un"]
+    }
+]

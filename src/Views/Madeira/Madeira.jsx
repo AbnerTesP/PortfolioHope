@@ -1,12 +1,17 @@
-import React from 'react'
-import Style from '../../../src/App.module.css';
+import React, {useEffect} from 'react'
+import Style from '../../../src/App.module.css'
 import styles from './Madeira.module.css'
 import Navbar from '../../components/Navbar/Navbar'
+import Contact from '../../components/Contact/Contact'
 import madeira from '../../data/madeira.json'
 import { MadeiraCard } from './MadeiraCard'
 
 
 export const Madeira = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <section className={Style.App}>
       <Navbar/>
@@ -19,6 +24,7 @@ export const Madeira = () => {
                 );
             })}
       </section>
+      <Contact />
     </section>
   )
 }
