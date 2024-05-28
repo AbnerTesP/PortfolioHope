@@ -24,14 +24,14 @@
 }
 
 .description{
-    margin-top: 5px;
+    margin-top: 3px;
     font-size:20px;
     font-weight: 400;
 }
 
 .skills{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 28px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -49,7 +49,7 @@
 
 .links {
     width: 20%;
-    margin-top: 26px;
+    margin-top: 22px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
