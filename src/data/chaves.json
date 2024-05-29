@@ -1,15 +1,21 @@
 [
     {
-        "title": "Palmilhas",
-        "imageSrc": ["sapatos/Palmilhas.png","sapatos/Palmilhas1.png","sapatos/Palmilhas2.png","sapatos/Palmilhas3.png"],
-        "description": "Letra + brincos em resina",
-        "skills": ["• desde 1,95€ até 15,70€"]
+        "title": "Fechaduras",
+        "imageSrc": ["chaves/Fechaduras.png","chaves/FechaduraFisa.png"],
+        "description": "",
+        "skills": ["• Fechaduras"]
         
     },      
     {
-        "title": "Cadarço de Sapato",
-        "imageSrc": ["sapatos/Cadarco.png","sapatos/Cadarco2.png","sapatos/Cadarco3.png", "sapatos/Cadarco4.png"],
-        "description": "Letra em resina",
-        "skills": ["• 4€ un"]
+        "title": "Canhões de fechadura",
+        "imageSrc": ["chaves/CanhaoSecurity.jpg","chaves/CanhaoSimples.jpg"],
+        "description": "",
+        "skills": ["•Canhões"]
+    },    
+    {
+        "title": "Comandos",
+        "imageSrc": ["chaves/AdvancedClonner.jpg","chaves/OnePro.jpg","chaves/V2.jpg"],
+        "description": "",
+        "skills": ["• Portões de garagem"]
     }
 ]

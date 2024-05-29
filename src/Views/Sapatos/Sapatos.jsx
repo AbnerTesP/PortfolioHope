@@ -15,7 +15,7 @@ export const Resina = () => {
     <section className={Style.App}>
     <Navbar/>
     <section className={styles.container} id='sapato'>
-      <h2 className={styles.title}>Trabalhos Com Sapatos</h2>
+      <h2 className={styles.title}>Acessórios para Sapatos</h2>
       <div className={styles.pecas}></div>
       {sapatos.map((sapatos, id)=>{
               return (
