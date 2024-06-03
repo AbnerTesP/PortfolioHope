@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
 
-        <a className={styles.title} href="/"><img src={getImageUrl("nav/LogoHopeSemFundo2.png")} alt="logo" /></a>
+        <a className={styles.title} href="/"><img src={getImageUrl("nav/Logotipo.png")} alt="logo" className={styles.img} /></a>
         <div className={styles.menu}>
             <img className={styles.menuBtn} src={menuOpen 
             ? getImageUrl("nav/closeIconBlack.png")

@@ -11,7 +11,7 @@ export const Hero = () => {
         Venha descobrir como trabalhamos com cada detalhe.</p>
         <a href="https://wa.me/351933330709" className={styles.contactBtn} target='_blank' rel='noopener noreferrer'>Contacte-me</a>
       </div> 
-      <img src={getImageUrl("nav/Logotipo.png")} alt="Hero image of me" className={styles.heroImg}/>
+      <img src={getImageUrl("nav/LogoHopeSemFundo2.png")} alt="Hero image of me" className={styles.heroImg}/>
       {/*<div className={styles.topBlur}/>
       <div className={styles.bottomBlur}/>*/}
     </section>
