@@ -1,0 +1,131 @@
+@import "../../vars.css";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #32ce66 0%, #185313);
+    box-shadow: 0 16px 14px 0 #063b12;
+    padding: 18px 24px;
+    max-width: 345px;
+    width: 345px; 
+    height: 500px;
+}
+
+.img{
+    margin-bottom: 26px;
+    border-radius: 10px;
+    width: 298px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.91;
+}
+
+.img:hover{
+    opacity: 1;   
+}
+
+.modal {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.imgFullSize {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.description{
+    margin-top: 5px;
+    font-size:20px;
+    font-weight: 400;
+}
+
+.skills{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+
+.skill{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+}
+
+.links {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    height: 100%;
+}
+    
+.link{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 400;
+    border-color: var(--color-dark);
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 1px 20px;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 830px){
+    .container{
+        max-width: 290px;
+        
+    }
+    .img {
+        width: 100%;
+        height: 200px;
+        
+      }
+      .imgFullSize {
+        max-width: 90vw;
+        max-height: 90vh;
+        border-radius: 10px;
+      }
+}
+@media screen and (max-width: 360px){
+    .links{
+        margin-top: 50px;
+        height: 200px;
+    }
+    .link{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 303px){
+    .links{
+        height: 200px;
+    }
+    .link{
+        font-size: 17px;
+    }
+}

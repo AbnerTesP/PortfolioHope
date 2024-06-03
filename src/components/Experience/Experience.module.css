@@ -1,14 +1,14 @@
 @import "../../vars.css";
 
 .container{
-    color: var(--color-text);
+    color: var(--color-text-secondary);
     margin-top: 79px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .title{
-    color: var(--color-text);
+    color: var(--color-text-secondary);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
@@ -39,7 +39,7 @@
 }
 
 .skillImageContainer{
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -55,6 +55,7 @@
 
 .skill p {
     font-size: 25px;
+    padding: 10px;
     font-family: var(--font-roboto);
     font-weight: 400;
     

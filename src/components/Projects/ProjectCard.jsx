@@ -1,8 +1,10 @@
 import React from 'react'
 import {getImageUrl} from '../../utils'
 import styles from './ProjectCard.module.css'
+import {Link} from 'react-router-dom'
 
-export const ProjectCard = ({projects :{title, imageSrc, videoSrc, description, skills, demo, source}, }) => {
+
+export const ProjectCard = ({projects :{title, imageSrc, videoSrc, description, skills, link}, }) => {
     const videoUrl = getImageUrl(videoSrc)
   return (
     <div className={styles.container}>
@@ -22,8 +24,7 @@ export const ProjectCard = ({projects :{title, imageSrc, videoSrc, description, 
             </li>
         })}</ul>
         <div className={styles.links}>
-        <a href={demo} className={styles.link}></a>
-        <a href={source} className={styles.link}></a>
+            <Link to={link} className={styles.link}>+</Link>
         </div>
     </div>
   )

@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Caneta",
+        "imageSrc": ["madeira/caneta.png"],
+        "description":"• 8€ conjunto" ,
+        "skills": ["Gravação de Canetas"],
+        "link": "933330709"
+    },   
+    {
+        "title": "Placas de Madeira",
+        "imageSrc": ["madeira/silence.png"],
+        "description": "• 4€ un",
+        "skills": ["Gravação de Placas"],
+        "link": "933330709"
+    },    
+    {
+        "title": "Acessórios de Madeira",
+        "imageSrc": ["madeira/coracao.png","madeira/placa.png"],
+        "description": "• desde 2€",
+        "skills": ["Gravação de Placas"],
+        "link": "933330709"
+    },
+    
+    {
+        "title": "Chaveiro de Madeira",
+        "imageSrc": ["madeira/chaveiro1.png","madeira/chaveiro2.png","madeira/chaveiro3.png","madeira/chaveiro4.png"],
+        "description": "• fina - 2€ / • grossa - 3€",
+        "skills": ["Gravação de chaveiros"],
+        "link": "933330709"
+    }
+]

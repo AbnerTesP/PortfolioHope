@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin-top: 90px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -15,13 +15,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: var(--color-text);
+    color: var(--color-dark);
     z-index: 1;
 }
 
 .title{
-    font-size: 72px;
-    font-weight: 900;
+    font-size: 60px;
+    font-weight: 790;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
     background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0),120%);
@@ -29,27 +29,59 @@
 
 .description{
     font-size: 30px;
+    color: var(--color-text-secondary);
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
 
-.contactBtn{
+.contactBtn {
+    position: relative;
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
+    border: none;
     border-radius: 100px;
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.contactBtn:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 100px;
+    background-color: #a0f11e;
+    background-image: linear-gradient(315deg, #a0f11e 0%, #d9f794 74%);
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+                7px 7px 20px 0px rgba(0,0,0,.1),
+                4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+
+.contactBtn:hover {
+    color: #000;
+}
+
+.contactBtn:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.contactBtn:active {
+    top: 2px;
 }
 
 .heroImg{
-    width: 30%;
+    width: 40%;
     z-index: 1;
-    border-radius: 100%;
-    background: rgba(45, 190, 1, 0.7);
-
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -68,7 +100,7 @@
     }
 }
 
-.topBlur{
+/*.topBlur{
     position: absolute;
     width: 50vw;
     height: 50vw;
@@ -94,7 +126,7 @@
     background: rgba(45, 190, 1, 0.7);
     filter:blur(100px);
     z-index: 0;
-}
+}*/
 
 @media screen and (max-width: 830px) {
     .container{
@@ -103,5 +135,38 @@
 
     .content{
         align-items: center;
+    }
+
+    .function{
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0px 60px;
+    }
+
+    .heroImg{
+        width: 50%;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .heroImg{
+        width: 100%;
+        z-index: 1;
+        margin-bottom: 50px;
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .heroImg{
+        display: none;
     }
 }

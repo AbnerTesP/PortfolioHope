@@ -45,7 +45,7 @@
     letter-spacing: 1.2px;
 }
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 853px){
     .container{
         flex-direction: column;
         gap: 23px;
@@ -64,5 +64,18 @@
     
     .link {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

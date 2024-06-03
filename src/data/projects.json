@@ -1,35 +1,31 @@
 [
     {
-        "title": "Resina",
+        "title": "Trabalhos Em Resina",
         "videoSrc": "projects/Videoresina.mp4",
-        "description": "Trabalhos Em Resina",
-        "skills": ["Epox", "pigmentação", "modelagem"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "description": "",
+        "skills": ["•Epox", "•Pigmentação", "•Modelagem"],
+        "link": "/resina"
     },    
     {
-        "title": "Madeira",
+        "title": "Trabalhos Em Madeira",
         "videoSrc": "projects/Videomadeira.mp4",
-        "description": "Trabalhos Em Madeira",
-        "skills": ["Queima", "arte"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "description": "",
+        "skills": ["•Queima", "•Arte"],
+        "link": "/madeira"
     },    
     {
-        "title": "Sapatos",
+        "title": "Reparação De Calçado",
         "videoSrc": "projects/Videosapato.mp4",
-        "description": "Reparação De Calçado",
-        "skills": ["Solas", "Proteções", "Restauração"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "description": "",
+        "skills": ["•Capas e Proteções", "•Tacões", "•Restauração","•Palmilhas"],
+        "link": "/sapatos"
     },
     
     {
-        "title": "Chaves e comandos",
-        "videoSrc": "projects/Videochave.mp4",
-        "description": "Copia de Chaves e Comandos",
-        "skills": ["Programação", "Copia", "Chaves", "Comandos"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-    }
+         "title": "Copia de Chaves e Comandos",
+         "videoSrc": "projects/Videochave.mp4",
+         "description": "",
+         "skills": ["•Abertura de portas", "•Copia de chaves residênciais","•Copia de chaves de Carros","•Copia de comandos","•Abertura de carros"],
+         "link": "/chaves"
+     }
 ]

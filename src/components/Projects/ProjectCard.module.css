@@ -7,14 +7,15 @@
     background: linear-gradient(180deg, #32ce66 0%, #185313);
     box-shadow: 0 16px 14px 0 #063b12;
     padding: 18px 24px;
-    max-width: 345px;
-    width: 345px; 
-    height: 500px;
+    max-width: 350px;
+    width: 350px; 
+    height: 550px;
 }
 
 .video{
-    margin-bottom: 26px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    height: 200px;
 }
 
 .title{
@@ -23,48 +24,65 @@
 }
 
 .description{
-    margin-top: 10px;
-    font-size:25px;
+    margin-top: 3px;
+    font-size:18px;
     font-weight: 400;
 }
 
 .skills{
     width: 100%;
-    margin-top: 55px;
+    margin-top: 9px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap:wrap;
     gap: 6px;
     list-style: none;
 }
 
 .skill{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     border-radius: 100px;
     background: var(--color-dark);
-    padding: 2px 22px;
+    padding: 2px 20px;
 }
 
 .links {
-    width: 100%;
-    margin-top: 26px;
+    width: 20%;
+    margin-top: 8px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    height: 100%;
 }
 
-/*.link{
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
+    margin-bottom: 20px;
     color: Var(--color-text);
-    font-size: 25px;
-    font-weight: 400;
-    border-radius: 100px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 50%;
     background: var(--color-primary);
-    padding: 1px 22px;
-}*/
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
 
 @media screen and (max-width: 830px){
     .container{
         max-width: 290px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 440px){
+    .video{
+        margin-bottom: 20px;
+        border-radius: 10px;
+        height: 200px;
     }
 }
