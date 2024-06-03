@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin-top: 90px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: var(--color-text);
+    color: var(--color-dark);
     z-index: 1;
 }
 
@@ -29,6 +29,7 @@
 
 .description{
     font-size: 30px;
+    color: var(--color-text-secondary);
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
@@ -78,23 +79,9 @@
     top: 2px;
 }
 
-
-.function{
-    color: var(--color-text);
-    font-size: 25px;
-    font-family: var(--font-roboto);
-    margin-top: 530px;
-    margin-left: 200px;
-    margin-right: -310px;
-    z-index: 1;
-}
-
 .heroImg{
-    width: 30%;
+    width: 100%;
     z-index: 1;
-    border-radius: 100%;
-    background: rgba(45, 190, 1, 0.7);
-
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -113,7 +100,7 @@
     }
 }
 
-.topBlur{
+/*.topBlur{
     position: absolute;
     width: 50vw;
     height: 50vw;
@@ -139,7 +126,7 @@
     background: rgba(45, 190, 1, 0.7);
     filter:blur(100px);
     z-index: 0;
-}
+}*/
 
 @media screen and (max-width: 830px) {
     .container{
@@ -164,8 +151,18 @@
     .title{
         font-size: 40px;
     }
+}
 
-    .description{
-        font-size: 25px;
+@media screen and (max-width: 440px) {
+    .heroImg{
+        width: 100%;
+        z-index: 1;
+        margin-bottom: 50px;
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
     }
+
+
 }

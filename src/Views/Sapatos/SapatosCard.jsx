@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import styles from './SapatosCard.module.css'
 import {getImageUrl} from '../../utils'
 
-export const SapatosCard = ({sapatos :{title, imageSrc, description, skills}, }) => {
+export const SapatosCard = ({sapatos :{title, imageSrc, description, skills, link}, }) => {
     const [fullSizeImageIndex, setImageFullSizeIndex] = useState(-1);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -35,12 +35,15 @@ export const SapatosCard = ({sapatos :{title, imageSrc, description, skills}, })
         <p className={styles.description}>
             {description}
         </p>
-        <ul className={styles.skills}>
+        {/*<ul className={styles.skills}>
             {skills.map((skills, id)=> {
             return <li key={id} className={styles.skill}>
                 {skills}
             </li>
-        })}</ul>
+        })}</ul>*/}
+        <div className={styles.links}>
+            <a href={`tel:${link}`} className={styles.link}>Ligue e Encomende</a>
+        </div>
     </div>
   
   )

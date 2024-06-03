@@ -58,11 +58,11 @@
 
 .skills{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 5px;
     list-style: none;
 }
 
@@ -71,32 +71,30 @@
     font-weight: 400;
     border-radius: 100px;
     background: var(--color-dark);
-    padding: 2px 22px;
+    padding: 1px 10px;
 }
 
 .links {
-    width: 20%;
-    margin-top: 26px;
+    width: 100%;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-start;
     position: relative;
     height: 100%;
 }
-
+    
 .link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
-    color: Var(--color-text);
-    font-size: 22px;
-    font-weight: 600;
-    border-radius: 50%;
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 400;
+    border-color: var(--color-dark);
+    border-radius: 100px;
     background: var(--color-primary);
-    width: 40px;
-    height: 40px;
-    text-align: center;
+    padding: 1px 20px;
+    margin-top: auto;
 }
 
 @media screen and (max-width: 830px){
@@ -114,4 +112,21 @@
         max-height: 90vh;
         border-radius: 10px;
       }
+}
+@media screen and (max-width: 360px){
+    .links{
+        margin-top: 50px;
+        height: 200px;
+    }
+    .link{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 303px){
+    .links{
+        height: 200px;
+    }
+    .link{
+        font-size: 17px;
+    }
 }

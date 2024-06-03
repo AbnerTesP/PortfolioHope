@@ -2,20 +2,23 @@
     {
         "title": "Fechaduras",
         "imageSrc": ["chaves/Fechaduras.png","chaves/FechaduraFisa.png"],
-        "description": "",
-        "skills": ["• Fechaduras"]
+        "description": "Para mais informações contacte-nos",
+        "skills": ["• Fechaduras"],
+        "link": "933330709"
         
     },      
     {
         "title": "Canhões de fechadura",
         "imageSrc": ["chaves/CanhaoSecurity.jpg","chaves/CanhaoSimples.jpg"],
-        "description": "",
-        "skills": ["•Canhões"]
+        "description": "Para mais informações contacte-nos",
+        "skills": ["•Canhões"],
+        "link": "933330709"
     },    
     {
         "title": "Comandos",
         "imageSrc": ["chaves/AdvancedClonner.jpg","chaves/OnePro.jpg","chaves/V2.jpg"],
-        "description": "",
-        "skills": ["• Portões de garagem"]
+        "description": "Para mais informações contacte-nos",
+        "skills": ["• Portões de garagem"],
+        "link": "933330709"
     }
 ]

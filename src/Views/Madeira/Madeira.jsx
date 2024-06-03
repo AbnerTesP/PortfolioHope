@@ -17,6 +17,7 @@ export const Madeira = () => {
       <Navbar/>
       <section className={styles.container} id='madeira'>
         <h2 className={styles.title}>Trabalhos Em Madeira</h2>
+        <div className={styles.greenstrip}></div>
         <div className={styles.pecas}></div>
         {madeira.map((madeira, id)=>{
                 return (

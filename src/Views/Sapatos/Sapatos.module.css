@@ -19,6 +19,19 @@
     margin-right: 10%;
 }
 
+.greenstrip {
+    position: absolute;
+    height: 60px; 
+    width: 97vw; 
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: var(--color-primary);
+    box-shadow: lawngreen 0px 0px 2px 2px;
+    border-radius: 10px;
+    margin-bottom: 37px;
+    z-index: 0;
+}
+
 .title{
     font-size: 40px;
     font-weight: 700;
@@ -28,6 +41,7 @@
     color:#f5f5dc; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     line-height: 1.5; 
+    z-index: 1;
 }
 
 .pecas{
@@ -39,4 +53,29 @@
     justify-content: center;
     gap: 15px;
     width: 100%;
+}
+
+@media screen and (max-width: 724px){
+    .greenstrip{
+        height: 120px;
+    }
+    
+}
+@media screen and (max-width: 374px){
+    .greenstrip{
+        height: 105px;
+    }
+    
+    .title{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 330px){
+    .greenstrip{
+        height: 100px;
+    }
+    
+    .title{
+        font-size: 32px;
+    }
 }

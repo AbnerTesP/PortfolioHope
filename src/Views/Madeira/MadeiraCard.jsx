@@ -5,7 +5,7 @@ import styles from './MadeiraCard.module.css'
 import {getImageUrl} from '../../utils'
 
 
-export const MadeiraCard = ({madeira :{title, imageSrc, description, skills}, }) => {
+export const MadeiraCard = ({madeira :{title, imageSrc, description, skills, link}, }) => {
     const [fullSizeImageIndex, setFullSizeImageIndex] = useState(-1);
     const [isModalOpen, setIsModalOpen] = useState(false);
     
@@ -37,12 +37,15 @@ export const MadeiraCard = ({madeira :{title, imageSrc, description, skills}, })
             <p className={styles.description}>
                 {description}
             </p>
-            <ul className={styles.skills}>
+            {/*<ul className={styles.skills}>
                 {skills.map((skill, id) => {
                 return <li key={id} className={styles.skill}>
                     {skill}
                 </li>
-            })}</ul>
+            })}</ul>*/}
+            <div className={styles.links}>
+                <a href={`tel:${link}`} className={styles.link}>Ligue e Encomende</a>
+            </div>
         </div>
     )
 }

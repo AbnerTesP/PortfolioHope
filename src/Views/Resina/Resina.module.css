@@ -28,6 +28,19 @@
     color:#f5f5dc; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     line-height: 1.5; 
+    z-index: 1;
+}
+
+.greenstrip {
+    position: absolute;
+    height: 60px; 
+    width: 97vw; 
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: var(--color-primary);
+    box-shadow: lawngreen 0px 0px 2px 2px;
+    border-radius: 10px;
+    z-index: 0;
 }
 
 .pecas{
@@ -39,4 +52,15 @@
     justify-content: center;
     gap: 15px;
     width: 100%;
+}
+
+@media screen and (max-width: 654px){
+    .greenstrip{
+        height: 90px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    
 }

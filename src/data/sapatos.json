@@ -3,7 +3,8 @@
         "title": "Palmilhas",
         "imageSrc": ["sapatos/Palmilhas.png","sapatos/Palmilhas1.png","sapatos/Palmilhas2.png","sapatos/Palmilhas3.png"],
         "description": "• desde 1,95€ até 15,70€",
-        "skills": ["•Espuma","•Gel", "•Pele"]
+        "skills": ["•Espuma","•Gel", "•Pele"],
+        "link": "933330709"
         
     },      
     {
@@ -11,6 +12,7 @@
         "imageSrc": ["sapatos/Cadarco.png","sapatos/Cadarco1.png","sapatos/Cadarco2.png","sapatos/Cadarco4.png", 
         "sapatos/Cadarco5.png","sapatos/Cadarco6.png"],
         "description": "• desde 1,30€ até 3,00€",
-        "skills": ["•Azul Escuro","•Branco", "•Beje", "•Preto"]
+        "skills": ["•Azul Escuro","•Branco", "•Beje", "•Preto"],
+        "link": "933330709"
     }
 ]

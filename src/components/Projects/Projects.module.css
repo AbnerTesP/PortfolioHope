@@ -17,9 +17,22 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    color:#f5f5dc; /* Cor do texto */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    color: var(--color-text); /* Cor do texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Sombra do texto */
     line-height: 1.5;
+    z-index: 1;
+}
+
+.greenstrip {
+    position: absolute;
+    height: 55px; 
+    width: 96vw; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-primary);
+    box-shadow: lawngreen 0px 0px 2px 2px;
+    border-radius: 10px;
+    z-index: 0; 
 }
 
 .projects{

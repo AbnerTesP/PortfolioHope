@@ -2,20 +2,23 @@
     {
         "title": "Letra + Brincos",
         "imageSrc": ["resina/Resina1.png","resina/Resina2.png","resina/Resina2.png","resina/Resina4.jpg","resina/Resina5.png","resina/Resina7.png"],
-        "description": "• 5€ un",
-        "skills": ["Letra + brincos em resina"]
-        
+        "description": "• entre 5€ e 6€ un",
+        "skills": ["Letra + brincos em resina"],
+        "link":"+351933330709"
     },      
     {
         "title": "Letra em Resina",
         "imageSrc": ["resina/Resina3.png","resina/Resina6.png"],
         "description": "• 4€ un",
-        "skills": ["Letra em resina"]
+        "skills": ["Letra em resina"],
+        "link": "+351933330709"
     }, 
     {
         "title": "Palavra de Resina",
         "imageSrc": ["resina/ResinaPalavra1.png","resina/ResinaPalavra.png","resina/ResinaPalavra2.png"],
         "description": "• 10€ un",
-        "skills": ["Palavra de Resina"]
+        "skills": ["Palavra de Resina"],
+        "link":"+351933330709"
+
     }
 ]
