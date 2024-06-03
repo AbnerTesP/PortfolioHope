@@ -24,7 +24,9 @@ const Navbar = () => {
             />
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
                 <li className={location.pathname === '/' ? styles.disabled : ''}><a href="/">Home</a></li>
-                <li><a href="#experience">Experiência</a></li>
+                <li>{isHomePage 
+                ? <a href="#experience">Experiência</a>
+                : <HashLink to="/#experience">Experiência</HashLink>}</li>
                 <li>{isHomePage 
                 ? <a href="#projects">Serviços</a> 
                 : <HashLink to="/#projects">Serviços</HashLink>}</li>
