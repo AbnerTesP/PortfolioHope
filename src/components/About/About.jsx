@@ -22,7 +22,7 @@ export const About = () => {
         </h2>*/}
         <div className={styles.content}>
             <div className={styles.video}>
-                <video autoPlay loop muted>
+                <video autoPlay loop muted playsInline>
                     <source src={getImageUrl("about/AboutVideo.mp4")} type="video/mp4" />
                 </video>
             </div>
