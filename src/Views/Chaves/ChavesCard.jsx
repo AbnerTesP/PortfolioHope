@@ -35,15 +35,15 @@ export const ChavesCard = ({Chaves :{title, imageSrc, description, skills, link}
         <p className={styles.description}>
             {description}
         </p>
+        <div className={styles.links}>
+            <a href={`tel:${link}`} className={styles.link}>Ligue e Encomende</a>
+        </div>
         {/*<ul className={styles.skills}>
             {skills.map((skills, id)=> {
             return <li key={id} className={styles.skill}>
                 {skills}
             </li>
         })}</ul>*/}
-        <div className={styles.links}>
-            <a href={`tel:${link}`} className={styles.link}>Ligue e Encomende</a>
-        </div>
     </div>
   
   )

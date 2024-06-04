@@ -81,7 +81,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    height: 200px;
+    height: 100%;
 }
     
 .link{
@@ -93,6 +93,7 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 20px;
+    margin-top: auto;
 }
 
 @media screen and (max-width: 830px){
@@ -118,6 +119,15 @@
     }
     .links{
         margin-top: 50px;
+        height: 200px;
+    }
+    .link{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 303px){
+    .links{
         height: 200px;
     }
     .link{
