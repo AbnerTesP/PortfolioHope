@@ -51,7 +51,7 @@
 }
 
 .description{
-    margin-top: 5px;
+    margin-top: 2px;
     font-size:18px;
     font-weight: 400;
 }
@@ -76,7 +76,7 @@
 
 .links {
     width: 100%;
-    margin-top: 80px;
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -114,9 +114,6 @@
 }
 
 @media screen and (max-width: 360px){
-    .container{
-        max-width: 290px;
-    }
     .links{
         margin-top: auto;
         height: 200px;
