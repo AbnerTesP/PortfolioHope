@@ -16,19 +16,19 @@ export const Contact = () => {
         <ul className={styles.links}>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/emaiIcon.png")} alt="Email Icon" />
-                <a href="mailto:ckts1@hotmail.com">Hopechavesearte@hotmail.com</a>
+                <a href="mailto:ckts1@hotmail.com">Hotmail</a>
             </li>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/instaIcon.png")} alt="Instagram Icon" />
-                <a href="https://www.instagram.com/hopechavesearte/">instagram.com/HopeChaves&Arte</a>
+                <a href="https://www.instagram.com/hopechavesearte/">Instagram</a>
             </li>
             <li className={styles.link}> 
             <img src={getImageUrl("contact/faceIcon.png")} alt="Facebook Icon" />
-                <a href="https://www.facebook.com/Hope.chaves.arte">facebook.com/HopeChaves&Arte</a>
+                <a href="https://www.facebook.com/Hope.chaves.arte">Facebook</a>
             </li>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/whatsappIcon.png")} alt="WhatsApp Icon" />
-                <a href="https://wa.me/351933330709">+351 933330709</a>
+                <a href="https://wa.me/351933330709">Whatsapp</a>
             </li>
             <li className={styles.link}>
                 <img src={getImageUrl("contact/localIcon.png")} alt="Localization Icon" />

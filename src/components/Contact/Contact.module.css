@@ -27,14 +27,13 @@
 
 .links{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 18px;;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .link{
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 5px;
 }
 
 .link a{
@@ -48,7 +47,6 @@
 @media screen and (max-width: 853px){
     .container{
         flex-direction: column;
-        gap: 23px;
     }
 
     .text{
@@ -60,10 +58,15 @@
     .links{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
+        gap: 25px;
     }
     
     .link {
         flex-direction: column;
+    }
+
+    .link a{
+        padding-top: -15px;
     }
 }
 
