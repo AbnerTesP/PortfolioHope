@@ -1,5 +1,19 @@
 [
     {
+        "title": "Copia de Chaves e Comandos",
+        "videoSrc": "projects/Videochave.mp4",
+        "description": "",
+        "skills": ["•Abertura de portas", "•Copia de chaves residênciais","•Copia de chaves de Carros","•Copia de comandos","•Abertura de carros"],
+        "link": "/chaves"
+    },
+    {
+        "title": "Reparação De Calçado",
+        "videoSrc": "projects/Videosapato.mp4",
+        "description": "",
+        "skills": ["•Capas e Proteções", "•Tacões", "•Restauração","•Palmilhas"],
+        "link": "/sapatos"
+    },
+    {
         "title": "Trabalhos Em Resina",
         "videoSrc": "projects/Videoresina.mp4",
         "description": "",
@@ -12,20 +26,5 @@
         "description": "",
         "skills": ["•Queima", "•Arte"],
         "link": "/madeira"
-    },    
-    {
-        "title": "Reparação De Calçado",
-        "videoSrc": "projects/Videosapato.mp4",
-        "description": "",
-        "skills": ["•Capas e Proteções", "•Tacões", "•Restauração","•Palmilhas"],
-        "link": "/sapatos"
-    },
-    
-    {
-         "title": "Copia de Chaves e Comandos",
-         "videoSrc": "projects/Videochave.mp4",
-         "description": "",
-         "skills": ["•Abertura de portas", "•Copia de chaves residênciais","•Copia de chaves de Carros","•Copia de comandos","•Abertura de carros"],
-         "link": "/chaves"
-     }
+    }
 ]
